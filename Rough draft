@@ -1,0 +1,51 @@
+Neuronal Cell Type Annotation in Brain Diseases 
+
+Problem: Help understand the variations in brain disease to propose treatment
+Type of research: Life science 
+Where data is coming from: there were 9 datasets used in the paper with some being publicly available, but I am still looking for my own. 
+The paper suggested the Panglao dataset which contained 209 human single cell datasets comprising 74 tissues with 1,126,580 cells 
+
+Panglao DB had a database where you can filter by species (mouse/human) 
+[amygdala, brain] ( 1 human) mouse( 17 mouse) 
+National library of medicine -> 268.6 million
+The datasets were pretrained. 
+
+Cleaning/preprocessing done on the data:  log normalization was performed on the data. Outliers with less than 200 genes expressed were filtered out. 
+Feature selection: Genes and their expression levels  
+How paper influences your research: The paper gives me a background on how a large scale model was made for cell type annotation. In this study, the model had to understand gene-gene interactions by being pretrained on large amounts of unlabeled sCRNA seq data.
+
+
+The Tasks
+1.	Explore a single cell RNA seq data base and preparing a study dataset of gene expression for brain diseases
+2.	Perform a statistical analysis typical to cell annotation task using scanpy python package 
+3.	Proposing a novel cell annotation pipeline using unsupervised clustering based on gene network per cells 
+a.	Use networks analytics tools such as network
+
+“Nature is a weekly international journal publishing the finest peer-reviewed research in all fields of science and technology” 
+Paper has a GitHub.  
+
+
+Nature Machine Intelligence 
+Article: published September 26, 2022
+ScBERT as large – scale pretrained deep language model for cell type annotation single-cell RNA- seq data : Yang,et al.
+
+
+
+
+
+In order to perform research on disease progress and tumor microenvironments, cell types have to be annotated based on single-cell RNA seq data. Genome annotation is the process of identifying the structural and functional information of a protein or gene. 
+
+There are different methods for annotating, and in this paper, it showed that there was shortcomings using these methods. These shortcomings include: improper handling, missing gene markers, impaired generalizations.  Gene markers have a known location which help in identifying unknown genes that influence disease risk. 
+
+To overcome the challenges, the ScBERT was developed. It is a pretrained deep neural network-based model, single-cell bidirectional encoder representations from transformers. 
+
+So basically the paper showcases the performance of the ScBERT model using and accuracy and F1-score using 5 fold cross validations. And other statistical methods. 
+
+Additionally, since there are so many cells, the model had to be fine-tuned for it to interpret what genes were important and not important. This allowed the model to identify the top genes corresponding to a specific cell type compared to other cell types. ScBERT can handle large scale datasets, 20,000 genes. 
+
+How paper influences your research: This model interpretability would matter to me because it would help differentiate between brain cell types and other cell types, and it would help to make sure we are targeting and proposing the right treatment. 
+
+•	I will need to obtain sCRNA seq datasets that provide highly credible cell type annotations. 
+•	The input of ScBERT -gene2vec- which captures the similarities between any two genes.
+•	The output of ScBERT 200-dimensional feature corresponding to each gene 
+

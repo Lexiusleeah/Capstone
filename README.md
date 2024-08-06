@@ -1,6 +1,6 @@
 ## Rough Draft 2 is the Final copy 
 # An Exploratory Analysis of Alzheimer’s Disease: Unraveling the Complexities of single cell RNA sequence Data
-### Lexius Lynch; Advisor: Bishnu Sarker; Meharry School of Applied Computational Sciences. 
+### Lexius Lynch MSDS.; Advisor: Bishnu Sarker PH.D.; Meharry School of Applied Computational Sciences. 
 #### Background:
 Single cell biology enables cell level understanding of human health as well as diseases focusing precision medicine. The identification of cell types precisely in major brain disorders is a critical area of research. The complex cellular architecture of the brain, characterized by a diverse set of cell types, makes it challenging to determine the primary pathological cell type for a particular disease.  Recent studies have used single-cell RNA and expression weighted cell type enrichment to identify specific neuronal cell types associated with brain disorders such as Alzheimer's disease (AD). These studies have revealed statistically significant enrichment of certain neuronal cell types in the context of these disorders, providing valuable insights into the differentially expressed genes as well as cell signaling pathways critical to the understanding of variants associated with brain diseases. The development of analytical methods and gene interaction networks for the identification of cell type-specific disease gene modules holds promise for promoting a better understanding of the cell type specificity of brain diseases and the development of more targeted therapeutic interventions. 
 
